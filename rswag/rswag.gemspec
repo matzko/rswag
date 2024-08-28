@@ -15,7 +15,7 @@ Gem::Specification.new do |s|
 
   s.files = Dir['{lib}/**/*'] + [ 'MIT-LICENSE' ]
 
-  s.add_dependency 'rswag-specs', path: './rswag-specs'
-  s.add_dependency 'rswag-api', path: './rswag-api'
-  s.add_dependency 'rswag-ui', path: './rswag-ui'
+  # s.add_dependency 'rswag-specs', path: './rswag-specs'
+  # s.add_dependency 'rswag-api', path: './rswag-api'
+  # s.add_dependency 'rswag-ui', path: './rswag-ui'
 end
