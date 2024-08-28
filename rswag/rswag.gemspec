@@ -15,7 +15,7 @@ Gem::Specification.new do |s|
 
   s.files = Dir['{lib}/**/*'] + [ 'MIT-LICENSE' ]
 
-  s.add_dependency 'rswag-specs', ENV['RUBYGEMS_VERSION'] || '0.0.0'
-  s.add_dependency 'rswag-api', ENV['RUBYGEMS_VERSION'] || '0.0.0'
-  s.add_dependency 'rswag-ui', ENV['RUBYGEMS_VERSION'] || '0.0.0'
+  s.add_dependency 'rswag-specs', path: './rswag-specs'
+  s.add_dependency 'rswag-api', path: './rswag-api'
+  s.add_dependency 'rswag-ui', path: './rswag-ui'
 end
